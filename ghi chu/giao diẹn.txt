@@ -1,0 +1,138 @@
+🎯 THÔNG SỐ CHUNG
+Mục	Thiết lập
+Thiết bị	Responsive Web (Desktop, Tablet, Mobile)
+Phong cách	3D hiện đại (Glassmorphism, Shadow Depth, Soft gradients)
+Font đề xuất	Poppins, Inter, hoặc SF Pro Display
+Hệ màu chủ đạo	Xanh tím đậm (#5D5FEF), Trắng (#FFFFFF), Xám nhạt (#F4F5F7), Đỏ nhẹ (#FF5A5F - cho cảnh báo), Gradient xanh tím làm điểm nhấn
+Hiệu ứng đặc biệt	Hover 3D depth, animated carousel, soft shadows, responsive grid layout
+
+🛍️ GIAO DIỆN NGƯỜI DÙNG (TRANG TMDT)
+1. Trang Chủ (Home)
+Header (sticky):
+
+Logo 3D
+
+Thanh tìm kiếm (bo góc, đổ bóng)
+
+Biểu tượng giỏ hàng, tài khoản (floating icon style)
+
+Banner/Slider:
+
+Carousel toàn màn hình, chuyển động mượt, hiệu ứng parallax
+
+CTA: “Mua ngay”, “Xem ưu đãi”, floating glass-style button
+
+Danh mục nổi bật:
+
+Các ô danh mục hình tròn (icon 3D), vuốt ngang được trên mobile
+
+Flash Sale & sản phẩm đề xuất:
+
+Thẻ sản phẩm có hiệu ứng hover 3D, show rating sao & % giảm
+
+Countdown Flash Sale animation realtime
+
+Footer:
+
+3 cột: Liên hệ – Chính sách – Tải app
+
+Social icon kiểu bóng nổi
+
+2. Trang Danh Mục
+Breadcrumb + filter sidebar (desktop)
+
+Sản phẩm dạng grid card (responsive)
+
+Hover 3D: card nâng nhẹ, shadow rõ, nút "Thêm vào giỏ" hiện ra
+
+Mobile: lọc dạng popup trượt lên, icon to rõ ràng
+
+Sắp xếp: drop-down đẹp mắt với icon và label rõ ràng
+
+3. Trang Chi Tiết Sản Phẩm
+Ảnh sản phẩm lớn, dạng slider có hiệu ứng zoom 3D
+
+Sidebar phải:
+
+Tên, Giá (font to, màu gradient nổi bật)
+
+Tùy chọn size, màu (chọn dạng button glassmorphism)
+
+CTA: "Mua ngay" – nút nổi, đổ bóng sâu
+
+Tabs mô tả / đánh giá / liên quan
+
+Tab-style glass, active có hiệu ứng ánh sáng chạy qua
+
+4. Giỏ Hàng
+Danh sách card sản phẩm
+
+Có animation khi tăng/giảm số lượng
+
+Phần tổng giá nổi bật, rõ ràng
+
+Mã giảm giá:
+
+Ô nhập mã nổi bật nhẹ, có hiệu ứng "tick" hoặc báo lỗi nhẹ khi áp dụng
+
+5. Thanh Toán
+Giao diện 1 trang (one-page checkout)
+
+3 cột (desktop): Thông tin – Vận chuyển – Thanh toán
+
+Mobile: dạng từng step accordion
+
+Nút “Xác nhận đặt hàng” 3D nổi bật, hiệu ứng rung nhẹ khi hover
+
+6. Tài khoản người dùng
+Layout dạng sidebar + main content
+
+Tabs: Đơn hàng, Địa chỉ, Voucher, Wishlist, v.v.
+
+Mobile: icon to, accordion mở từng phần
+
+🛠️ GIAO DIỆN TRANG ADMIN PANEL
+1. Dashboard
+Sidebar trái cố định: icon hiện đại (flat 3D)
+
+Biểu đồ thống kê:
+
+Dạng gradient card: Doanh thu, Đơn hàng, Tỷ lệ hoàn thành
+
+Chart loại area/spline chart (hiệu ứng 3D vùng sáng mềm)
+
+Thông báo nổi bật: card có viền sáng cảnh báo nhẹ
+
+2. Quản lý Sản phẩm
+Danh sách bảng: Tên, SKU, Ảnh, Giá, Kho, Trạng thái
+
+Nút “Thêm mới” nổi bật
+
+Form thêm sản phẩm: chia thành bước Step-by-step + upload ảnh (drop zone drag/drop đẹp mắt)
+
+3. Quản lý Đơn hàng
+Filter theo trạng thái (Tag nhiều màu: Xanh, Vàng, Xám, Đỏ)
+
+Chi tiết đơn hàng: hiển thị như bảng tổng hợp, tab chuyển nhanh
+
+4. Quản lý Khách hàng
+Danh sách khách hàng, click vào popup info chi tiết
+
+Hiển thị tổng số đơn, tổng chi tiêu, trạng thái tài khoản
+
+5. Báo cáo - Thống kê
+Biểu đồ tăng trưởng: gradient background, chỉ số thay đổi animate
+
+Export Excel/PDF dạng nút 3D nổi bật
+
+6. Cấu hình hệ thống
+Accordion menu theo nhóm: Giao diện, Thanh toán, Vận chuyển...
+
+Toggle switch dạng glass, hiệu ứng ripple nhẹ khi chuyển
+
+✅ Gợi ý nâng cao:
+Hiệu ứng scroll reveal: thành phần hiện dần khi cuộn
+
+Dark mode toggle (đặc biệt cho admin)
+
+State animation: loading, empty state, success, error – đều có hoạt ảnh 3D nhỏ thân thiện

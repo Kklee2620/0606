@@ -1,0 +1,196 @@
+# Bố cục chuẩn của trang web thương mại điện tử và trang admin
+
+Một website được coi là thương mại điện tử bắt buộc phải có đầy đủ các trang chức năng cần thiết của một trang web bán hàng trực tuyến. Dưới đây là mô tả chi tiết về bố cục giao diện người dùng (UI) chính của **trang web thương mại điện tử** (tham khảo từ các nền tảng lớn như Shopee, Lazada) và **trang quản trị (admin panel)**. Mỗi phần bao gồm các trang/chức năng chính cùng thành phần UI đặc trưng. Ngoài phần mô tả, có bảng tóm tắt các thành phần chính của từng giao diện để tiện so sánh và hình dung.
+
+## Giao diện người dùng (UI) của trang web thương mại điện tử
+
+### Trang chủ (Home page)
+
+Trang chủ là bộ mặt chính của trang web, tạo ấn tượng đầu tiên cho khách hàng. Giao diện trang chủ thường được thiết kế hấp dẫn, hài hòa để thu hút người dùng và giúp họ dễ dàng điều hướng. Đây là nơi giới thiệu tổng quan về sản phẩm, khuyến mãi và các danh mục nổi bật của website. Một số thành phần chính trên trang chủ bao gồm:
+
+* **Thanh điều hướng & tìm kiếm:** Phía trên cùng có logo, menu danh mục sản phẩm chính, ô tìm kiếm nổi bật, cùng các biểu tượng tài khoản và giỏ hàng để người dùng dễ truy cập.
+* **Banner hoặc slider quảng cáo:** Ngay dưới header thường có banner lớn hoặc băng chuyền (carousel) trình chiếu các chương trình khuyến mãi, sự kiện giảm giá đang diễn ra. Ví dụ: Shopee và Lazada đều có slider hiển thị khuyến mãi nổi bật ngay khi vào trang, giúp thu hút sự chú ý của khách hàng.
+* **Danh mục nổi bật (category shortcuts):** Các danh mục sản phẩm chính được hiển thị dưới dạng biểu tượng hoặc menu để khách hàng có thể **nhấp nhanh vào từng ngành hàng**. (Ví dụ: Shopee từng hiển thị nhiều hàng icon danh mục; nay đã tối giản thành một thanh cuộn ngang gọn gàng phía dưới thanh tìm kiếm).
+* **Sản phẩm đề xuất & khuyến mãi:** Trang chủ trưng bày danh sách sản phẩm đa dạng như *sản phẩm mới*, *bán chạy*, hoặc *đề xuất dựa trên lịch sử xem*. Các chương trình như flash sale, deal theo danh mục cũng được đặt ở vị trí nổi bật. (Ví dụ: Lazada đặt thẳng **mục Flash Sale** ngay “trên màn hình đầu tiên” – above the fold – để người dùng thấy ngay ưu đãi và tạo cảm giác khẩn cấp khi mua hàng).
+* **Quảng cáo tích hợp:** Các banner hoặc thẻ quảng cáo được lồng ghép một cách tự nhiên vào dòng sản phẩm, tránh gây rối mắt. Shopee chẳng hạn tích hợp quảng cáo dưới dạng thẻ trong danh sách sản phẩm đề xuất thay vì banner lớn, giúp giao diện tập trung và không làm người dùng sao nhãng.
+
+&#x20;*Hình 1: Ví dụ bố cục trang chủ điển hình của một website thương mại điện tử, với **header** bao gồm logo, tìm kiếm, tài khoản, giỏ hàng; **menu danh mục**; **slider quảng cáo** hiển thị khuyến mãi; và các **danh mục sản phẩm** hoặc **sản phẩm đề xuất** bên dưới.*
+
+Trang chủ thường rất dài (đặc biệt như Shopee) với nhiều nội dung nên cần bố trí khoa học, tránh quá tải. Một số trang chọn cách phân trang hoặc nút “Xem thêm” để không bắt người dùng cuộn quá nhiều. Mục tiêu chính của trang chủ là dẫn dắt người dùng đến phần họ quan tâm (danh mục, sản phẩm cụ thể, tìm kiếm sản phẩm, v.v.) một cách nhanh chóng và thuận tiện.
+
+### Trang danh mục sản phẩm (Category Listing page)
+
+Trang danh mục liệt kê các sản phẩm thuộc một nhóm hoặc ngành hàng cụ thể. Giao diện này giúp người dùng duyệt xem các sản phẩm theo chủ đề mà họ quan tâm. Khi người dùng nhấp vào một danh mục (ví dụ: "Điện thoại & Máy tính bảng"), họ sẽ thấy danh sách tất cả sản phẩm trong danh mục đó, thường kèm theo các công cụ lọc và sắp xếp để dễ dàng tìm kiếm hơn.
+
+* **Tiêu đề và breadcrumb:** Phía trên cùng hiển thị tên danh mục và đường dẫn (breadcrumb) để người dùng biết vị trí và có thể chuyển sang danh mục cha một cách nhanh chóng.
+* **Danh sách sản phẩm dạng lưới hoặc danh sách:** Mỗi sản phẩm được hiển thị với hình ảnh thu nhỏ, tên, giá, phần trăm giảm giá (nếu có khuyến mãi) và có thể có nhãn như "Yêu thích", "Bán chạy". Ví dụ: Lazada hiển thị nhãn giảm giá (%) ngay trên ảnh sản phẩm dưới dạng huy hiệu nhỏ, giúp khách hàng thấy rõ mức giảm.
+* **Bộ lọc (filter) theo thuộc tính:** Bên **cột trái** (trên desktop) hoặc qua menu lọc (trên mobile) liệt kê các tùy chọn lọc theo **thương hiệu, giá, màu sắc, kích cỡ, v.v.** Người dùng có thể thu hẹp kết quả để chỉ thấy những sản phẩm phù hợp nhu cầu. Chẳng hạn, lọc theo khoảng giá hoặc hãng sản xuất sẽ giảm số lượng sản phẩm phải duyệt, giúp tiết kiệm thời gian và công sức cho khách hàng.
+* **Sắp xếp (sort):** Thường có menu sắp xếp cho phép chọn thứ tự hiển thị: phổ biến nhất, giá tăng/giảm, sản phẩm mới, được đánh giá cao, v.v.
+* **Phân trang hoặc tải thêm:** Nếu danh mục có rất nhiều sản phẩm, giao diện có thể chia thành các trang (có nút chuyển trang) hoặc cuộn vô hạn kèm nút "Xem thêm" để tải thêm sản phẩm dần dần (như Lazada dùng nút "Load more" giúp giao diện gọn gàng hơn thay vì cuộn vô hạn như Shopee).
+
+&#x20;*Hình 2: Giao diện trang danh mục sản phẩm với **breadcrumb** (đường dẫn danh mục), tùy chọn **số sản phẩm hiển thị**, và **bộ lọc** bên cạnh giúp người dùng thu hẹp kết quả tìm kiếm.*
+
+Trang danh mục đóng vai trò trung gian, dẫn người dùng từ phạm vi rộng (tất cả sản phẩm) đến lựa chọn cụ thể. Giao diện rõ ràng với hình ảnh sản phẩm đồng đều và công cụ lọc hữu ích sẽ nâng cao trải nghiệm duyệt sản phẩm cho khách hàng, từ đó tăng khả năng họ tìm được món hàng phù hợp.
+
+### Trang chi tiết sản phẩm (Product Detail page)
+
+Đây là trang quan trọng bậc nhất, nơi hiển thị đầy đủ thông tin về sản phẩm mà khách hàng quan tâm. Trang chi tiết sản phẩm phải cung cấp rõ ràng, hấp dẫn mọi chi tiết cần thiết để thuyết phục khách mua hàng. Giao diện thường bao gồm:
+
+* **Hình ảnh sản phẩm chất lượng cao:** Một khung ảnh lớn hiển thị ảnh sản phẩm (có thể zoom hoặc xoay 360 độ), kèm thư viện ảnh nhỏ cho các góc chụp khác hoặc biến thể màu sắc. Hình ảnh rõ nét giúp khách hàng hình dung sản phẩm tốt hơn.
+* **Thông tin cơ bản:** Tên sản phẩm, giá hiện tại (và giá gốc nếu đang giảm giá), tỷ lệ giảm (%), các thuộc tính lựa chọn (màu sắc, kích cỡ, phiên bản, v.v.). Nếu có khuyến mãi đặc biệt (vd: coupon giảm thêm, quà tặng kèm), thường được nêu gần giá.
+* **Mô tả ngắn và thông số:** Đoạn mô tả tóm tắt những điểm nổi bật, cộng với bảng thông số kỹ thuật hoặc chi tiết thành phần sản phẩm. Thông tin này giúp khách nắm nhanh đặc điểm chính.
+* **Tương tác mua hàng:** Các nút và tùy chọn cho phép người dùng *chọn số lượng*, *thêm sản phẩm vào giỏ hàng*, hoặc **Mua ngay**. Nút mua hàng (thường nổi bật màu sắc như cam trên Shopee/Lazada) được thiết kế to, dễ thấy để thúc đẩy hành động mua. Ngoài ra có thể có nút *Thêm vào danh sách yêu thích* để lưu sản phẩm.
+* **Chia sẻ và đánh giá:** Các biểu tượng **chia sẻ** lên mạng xã hội, sao chép link sản phẩm, v.v., giúp khách hàng gửi sản phẩm cho người khác. Phần **đánh giá (review)** hiển thị xếp hạng sao trung bình, số lượt đánh giá và một số đánh giá tiêu biểu từ người mua trước – yếu tố rất quan trọng gây dựng niềm tin.
+* **Thông tin mở rộng:** Mô tả chi tiết đầy đủ về sản phẩm, thông tin bảo hành, chính sách đổi trả, hướng dẫn sử dụng, v.v. được bố trí ở các tab hoặc phần phía dưới. Kế đó thường là danh sách **sản phẩm liên quan** hoặc *đề xuất tương tự* để giữ chân người dùng tiếp tục duyệt nếu chưa ưng ý hoàn toàn sản phẩm hiện tại.
+
+&#x20;*Hình 3: Giao diện trang chi tiết sản phẩm với (1) **tiêu đề** và **bộ ảnh sản phẩm** chất lượng cao; (2) **giá bán** (kèm giá gốc nếu có giảm giá); (3) tuỳ chọn **số lượng** và các **thuộc tính** (ví dụ: màu sắc, kích cỡ); (4) nút **Thêm vào giỏ hàng** hoặc **Mua ngay** nổi bật; (5) thông tin đảm bảo (vd: miễn phí vận chuyển, hoàn trả); (6) **mô tả chi tiết sản phẩm** và **đánh giá của khách hàng** bên dưới.*
+
+Trang chi tiết sản phẩm thường tích hợp nhiều tính năng hỗ trợ quyết định mua. Người dùng có thể **chọn số lượng**, thêm vào giỏ, áp dụng mã giảm giá (nếu có), chia sẻ link cho bạn bè, và xem đánh giá sao từ người mua khác. Đây chính là trang “chốt đơn” quan trọng, nên thiết kế cần trực quan, nút kêu gọi hành động (CTA) rõ ràng và thông tin đầy đủ để tăng tỷ lệ chuyển đổi từ xem hàng sang đặt hàng. Theo một thiết kế cơ sở dữ liệu e-commerce mẫu, mỗi sản phẩm sẽ có các thông tin như tên, mô tả, giá cả, hình ảnh, thuộc tính (cỡ, màu), và danh sách ảnh chi tiết – tất cả đều được trình bày trên trang này một cách có tổ chức.
+
+### Trang giỏ hàng (Shopping Cart)
+
+Trang giỏ hàng (cart) là bước trung gian cho phép người mua xem lại các sản phẩm đã chọn trước khi sang bước thanh toán. Giao diện giỏ hàng cần hiển thị rõ ràng danh sách mặt hàng và cho phép người dùng điều chỉnh đơn hàng một cách thuận tiện. Các yếu tố chủ đạo trên trang giỏ hàng gồm:
+
+* **Danh sách sản phẩm đã chọn:** Mỗi sản phẩm thường hiển thị ảnh thu nhỏ, tên, đơn giá, số lượng và thành tiền. Khách hàng có thể nhanh chóng kiểm tra xem **sản phẩm, số lượng, giá cả** có đúng như ý muốn hay không.
+* **Chỉnh sửa số lượng/xóa sản phẩm:** Cho phép người dùng tăng hoặc giảm số lượng từng sản phẩm, hoặc *gỡ bỏ* mặt hàng khỏi giỏ. Bất kỳ thay đổi nào sẽ cập nhật lại **tổng tiền** ngay lập tức. Việc chỉnh sửa giỏ hàng cần trực quan (ví dụ: nút “+/-” số lượng) để giảm thao tác thừa.
+* **Tổng chi phí:** Phần tổng kết hiển thị tạm tính tổng tiền hàng, thuế (nếu có), phí vận chuyển ước tính, và tổng cộng. Nếu trang web có ngưỡng miễn phí vận chuyển, thông tin này có thể được nhấn mạnh (ví dụ: “Mua thêm 50.000đ để được miễn ship”).
+* **Mã giảm giá (promo code):** Ô nhập mã coupon để khách hàng áp dụng giảm giá (nếu họ có mã khuyến mãi). Nhiều trang đặt chức năng này tại trang giỏ hàng, giúp khách kiểm tra được giá sau giảm trước khi **tiến hành thanh toán**. (Lưu ý thiết kế ô nhập mã nên tinh tế: nổi bật đủ cho ai có mã sử dụng, nhưng không quá lộ liễu khiến người không có mã phải rời trang đi tìm mã giảm giá).
+* **Tuỳ chọn tiếp tục mua sắm:** Link hoặc nút “Tiếp tục mua sắm” để quay lại các trang sản phẩm, dành cho khách muốn thêm món khác. Trang giỏ hàng đôi khi cũng hiển thị **sản phẩm gợi ý** (cross-sell/up-sell) dựa trên những gì trong giỏ, nhằm khuyến khích khách mua thêm.
+* **Nút kêu gọi hành động:** Nút **“Thanh toán”** hoặc **“Tiến hành đặt hàng”** được thiết kế nổi bật để thu hút khách chuyển sang bước tiếp theo. CTA này thường đặt ở vị trí dễ thấy (phía dưới danh sách hoặc cố định ở cuối màn hình trên mobile).
+
+Trang giỏ hàng đóng vai trò “cầu nối” giữa xem sản phẩm và thanh toán – khách hàng đã thể hiện ý định mua bằng việc thêm hàng vào giỏ, nên trang này phải giúp họ kiểm tra lại chi tiết và **thuận tiện sang bước thanh toán** mà không gặp trở ngại. Giao diện rõ ràng, thông tin minh bạch (về giá cả, phí ship, v.v.) cùng các hỗ trợ cần thiết (chat hỗ trợ, chính sách đổi trả,…) sẽ giảm tỷ lệ *bỏ giỏ hàng* giữa chừng.
+
+### Trang thanh toán (Checkout)
+
+Trang thanh toán là nơi khách hàng hoàn tất đặt hàng – điền thông tin giao hàng, chọn phương thức thanh toán và xác nhận mua. Giao diện trang thanh toán thường được thiết kế theo dạng biểu mẫu nhiều bước hoặc một trang đơn giản tổng hợp tất cả các thông tin cần thiết. Mục tiêu là làm quy trình thanh toán **nhanh chóng, rõ ràng và an toàn** để khách thực sự đặt mua thành công.
+
+Các thành phần chính của trang thanh toán bao gồm:
+
+* **Thông tin giao hàng:** Biểu mẫu để khách nhập địa chỉ nhận hàng, bao gồm họ tên, số điện thoại, địa chỉ cụ thể và ghi chú (nếu cần). Nếu người dùng đã lưu sẵn địa chỉ trong tài khoản, có thể chọn từ danh sách địa chỉ đã lưu cho thuận tiện.
+* **Phương thức vận chuyển:** Lựa chọn dịch vụ giao hàng (tiêu chuẩn, nhanh, tiết kiệm, v.v.) kèm phí vận chuyển tương ứng. Hệ thống có thể tự động tính phí dựa trên địa chỉ giao và trọng lượng đơn hàng.
+* **Phương thức thanh toán:** Các tùy chọn để khách chọn cách trả tiền: **Thanh toán khi nhận (COD)**, **thẻ tín dụng/ghi nợ**, **chuyển khoản ngân hàng**, **ví điện tử** hoặc cổng thanh toán (PayPal, Momo,...), v.v. Nền tảng lớn như Shopee, Lazada thường hỗ trợ nhiều phương thức (kể cả trả góp, trả tại cửa hàng tiện lợi, v.v.) để tăng khả năng thanh toán thành công cho mọi khách hàng.
+* **Tóm tắt đơn hàng:** Bảng liệt kê lại các sản phẩm trong giỏ hàng (tên, số lượng, đơn giá) và tính **tổng tiền cuối cùng** sau khi cộng phí vận chuyển, trừ giảm giá (nếu có). Khách hàng có cơ hội cuối để rà soát mọi thứ đều chính xác.
+* **Mã giảm giá và ghi chú:** Nếu chưa áp dụng mã giảm giá ở bước trước, trang thanh toán thường vẫn cho phép nhập mã. Ngoài ra có ô để khách ghi chú cho đơn hàng (ví dụ: “giao trong giờ hành chính”).
+* **Nút xác nhận đặt hàng:** Nút **“Đặt mua”** hoặc **“Hoàn tất đơn hàng”** nổi bật, nhấn vào sẽ tiến hành tạo đơn. Khu vực này thường kèm thông tin cam kết (mua hàng an toàn, bảo mật thông tin) và logo chứng chỉ bảo mật để khách yên tâm khi cung cấp thông tin thanh toán.
+
+&#x20;*Hình 4: Giao diện trang thanh toán điển hình gồm biểu mẫu **địa chỉ giao hàng**, chọn **phương thức giao hàng** và **thanh toán**, cùng bảng **tóm tắt đơn hàng** bên phải liệt kê sản phẩm và phí để khách kiểm tra lần cuối trước khi đặt mua. Các biểu tượng **thanh toán an toàn** được hiển thị nhằm tạo sự tin tưởng.*
+
+Trang thanh toán cần tối giản các bước dư thừa và **hướng dẫn rõ ràng**. Ví dụ, nếu thiếu thông tin hoặc nhập sai, hệ thống nên báo lỗi cụ thể để người dùng sửa ngay. Tốc độ tải trang nhanh và giao diện mobile thân thiện cũng rất quan trọng vì nhiều người mua trên điện thoại. Nhìn chung, trang thanh toán tốt sẽ cho phép khách hoàn tất mua sắm dễ dàng – điền thông tin, xác nhận và đặt hàng chỉ trong vài cú nhấp.
+
+### Trang tài khoản người dùng (User Account page)
+
+Trang tài khoản (trang cá nhân của người dùng) là nơi khách hàng quản lý các thông tin và hoạt động liên quan đến tài khoản mua sắm của họ. Sau khi đăng nhập, người dùng có thể truy cập khu vực **“Tài khoản của tôi”**, thường bao gồm các mục chính:
+
+* **Thông tin cá nhân:** Hiển thị tên tài khoản, email, số điện thoại; cho phép người dùng chỉnh sửa thông tin cá nhân và thay đổi mật khẩu.
+* **Sổ địa chỉ:** Quản lý các địa chỉ nhận hàng đã lưu (thêm/sửa/xóa địa chỉ mới). Điều này giúp khách hàng chọn địa chỉ giao hàng nhanh khi thanh toán mà không phải nhập lại mỗi lần.
+* **Đơn hàng của tôi:** Danh sách tất cả đơn hàng đã đặt, kèm trạng thái (đang xử lý, đang vận chuyển, đã giao, đã hủy, v.v.). Khách hàng có thể nhấp vào từng đơn để xem chi tiết (sản phẩm, số tiền, mã vận đơn) và theo dõi tiến trình giao hàng. Đây là chức năng quan trọng cho phép người mua **theo dõi và quản lý lịch sử mua sắm** của mình.
+* **Sản phẩm yêu thích (Wishlist):** Danh sách những sản phẩm mà người dùng đã lưu lại để xem sau hoặc yêu thích. Người dùng có thể quản lý danh sách này – ví dụ xóa mục đã mua, thêm vào giỏ từ wishlist, v.v. Wishlist giúp khách so sánh và ghi nhớ sản phẩm quan tâm để mua sau này.
+* **Đánh giá của tôi:** Một số trang cho phép người dùng xem lại các nhận xét, đánh giá họ đã viết cho sản phẩm đã mua.
+* **Ví voucher/Tiền hoàn lại:** Nếu có hệ thống hoàn tiền (refund, hoàn xu) hoặc ví điện tử tích hợp, trang tài khoản sẽ có mục theo dõi số dư, lịch sử giao dịch hoặc các mã giảm giá cá nhân.
+* **Cài đặt và hỗ trợ:** Bao gồm cài đặt thông báo (nhận email khuyến mãi, SMS), mục tin nhắn (liên hệ với người bán), và **trung tâm hỗ trợ** (FAQ, chat hỗ trợ khách hàng). Người dùng cũng có thể tìm thấy nút **đăng xuất** ở đây.
+
+Nhìn chung, giao diện tài khoản người dùng được tổ chức thành các tab hoặc menu bên để khách hàng dễ dàng truy cập từng phần. Mỗi phần tập trung vào một nhiệm vụ quản lý cụ thể, giúp người dùng tự phục vụ các nhu cầu như kiểm tra trạng thái đơn hàng, cập nhật thông tin cá nhân một cách thuận tiện. Theo thiết kế hệ thống thương mại điện tử mẫu, mỗi người dùng có thể có **nhiều địa chỉ**, một danh sách **yêu thích**, danh sách **đơn hàng** cùng trạng thái, và giỏ hàng riêng – trang tài khoản chính là nơi tập trung các thông tin đó để người dùng kiểm soát.
+
+**Bảng: Tóm tắt các trang giao diện người dùng chính và thành phần chức năng**
+
+| **Trang giao diện**         | **Thành phần/Chức năng chính**                                                                                                                                                                                                                                                                          |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Trang chủ**               | - Thanh điều hướng (logo, menu danh mục, tìm kiếm, giỏ hàng, tài khoản) <br> - Banner/slider quảng cáo khuyến mãi<br> - Các biểu tượng danh mục chính (shortcut) <br> - Danh sách sản phẩm đề xuất, flash sale, khuyến mãi theo ngành hàng <br> - Footer: thông tin liên hệ, hỗ trợ khách hàng, v.v.    |
+| **Trang danh mục sản phẩm** | - Tiêu đề danh mục & breadcrumb chỉ vị trí <br> - Lưới sản phẩm (ảnh, tên, giá, giảm giá) <br> - Bộ lọc theo thuộc tính (giá, hãng, màu sắc…)<br> - Chức năng sắp xếp (giá, phổ biến…) <br> - Phân trang hoặc nút "Xem thêm" khi nhiều sản phẩm                                                         |
+| **Trang chi tiết sản phẩm** | - Ảnh sản phẩm chất lượng cao (kèm thư viện ảnh phụ) <br> - Thông tin sản phẩm: tên, giá, thuộc tính chọn (màu, size…), mô tả ngắn <br> - Tính năng: chọn số lượng, **Thêm vào giỏ** / **Mua ngay**<br> - Chia sẻ MXH, thêm wishlist <br> - Thông tin chi tiết, đánh giá khách hàng, sản phẩm liên quan |
+| **Trang giỏ hàng**          | - Danh sách sản phẩm đã chọn (ảnh, tên, giá, số lượng) <br> - Chỉnh sửa số lượng hoặc xóa sản phẩm<br> - Hiển thị tạm tính, phí vận chuyển, tổng cộng <br> - Nhập mã giảm giá (coupon) nếu có<br> - Nút **Tiến hành thanh toán** và tuỳ chọn tiếp tục mua sắm                                           |
+| **Trang thanh toán**        | - Form nhập địa chỉ giao hàng <br> - Chọn phương thức vận chuyển (và xem phí ship) <br> - Chọn phương thức thanh toán (COD, thẻ, ví điện tử…)<br> - Bảng tổng kết đơn hàng (sản phẩm + phí + giảm giá) <br> - Nút **Xác nhận đặt hàng**, kèm cam kết bảo mật/thông tin hỗ trợ                           |
+| **Trang tài khoản**         | - Thông tin tài khoản & chỉnh sửa hồ sơ <br> - Sổ địa chỉ giao hàng <br> - Quản lý đơn hàng (lịch sử mua, trạng thái)<br> - Danh sách yêu thích (wishlist) <br> - Cài đặt khác (đổi mật khẩu, thông báo, hỗ trợ)                                                                                        |
+
+*(Bảng trên liệt kê các trang UI chính phía người dùng của một trang web thương mại điện tử cùng những thành phần hoặc chức năng tiêu biểu trong mỗi trang.)*
+
+## Giao diện trang quản trị (Admin Panel)
+
+Đối với chủ sở hữu website hoặc người bán, trang quản trị (admin panel) là công cụ để quản lý toàn bộ hệ thống thương mại điện tử. Giao diện admin thường được tách riêng (yêu cầu quyền admin mới truy cập) và có thiết kế tập trung vào việc hiển thị số liệu, danh sách và biểu mẫu quản lý nội dung. Một admin panel tiêu chuẩn bao gồm các module chính như **Dashboard (Bảng điều khiển tổng quan)**, **Quản lý sản phẩm**, **Quản lý đơn hàng**, **Quản lý người dùng/khách hàng**, **Báo cáo - Thống kê**, và **Cấu hình hệ thống**. Dưới đây là chi tiết từng phần:
+
+### Bảng điều khiển (Dashboard)
+
+Dashboard là trang đầu tiên của admin panel, cung cấp cái nhìn tổng quan về hoạt động của cửa hàng. Tại đây, các **chỉ số kinh doanh quan trọng** được hiển thị dưới dạng biểu đồ, số liệu tóm tắt giúp admin nắm bắt nhanh tình hình. Những thông tin thường thấy trên dashboard gồm:
+
+* **Tổng quan doanh thu & đơn hàng:** Doanh thu hôm nay/tháng này, số lượng đơn hàng mới, đơn hàng đang xử lý, tỷ lệ chuyển đổi, v.v. Các chỉ số này có thể cập nhật theo thời gian thực để admin theo dõi sức khỏe kinh doanh.
+* **Biểu đồ thống kê:** Biểu đồ doanh thu theo ngày/tuần, biểu đồ số đơn hàng theo thời gian, hoặc biểu đồ lượng truy cập. Điều này giúp trực quan hóa xu hướng bán hàng và hành vi khách hàng.
+* **Thông báo & công việc cần làm:** Các cảnh báo như *sản phẩm sắp hết hàng*, *đơn hàng cần xác nhận*, hoặc tin nhắn của khách. Admin có thể thấy ngay những việc ưu tiên sau khi đăng nhập.
+* **Tóm tắt khác:** Số lượng sản phẩm đang bán, số khách hàng đăng ký mới, sản phẩm bán chạy nhất, v.v. có thể được liệt kê ở dashboard.
+
+Mục tiêu của dashboard là cung cấp **bức tranh tổng thể** và các điểm nhấn quan trọng để quản trị viên hành động kịp thời. Một dashboard hiệu quả tích hợp nhiều chức năng quan trọng, giúp việc quản lý và ra quyết định nhanh chóng, chính xác.
+
+### Quản lý sản phẩm (Product Management)
+
+Chức năng quản lý sản phẩm cho phép admin kiểm soát toàn bộ danh mục hàng hóa trên website. Giao diện quản lý sản phẩm thường dưới dạng danh sách bảng liệt kê tất cả sản phẩm, kèm các công cụ tìm kiếm, lọc, thêm mới hoặc chỉnh sửa. Những khả năng chính bao gồm:
+
+* **Thêm mới sản phẩm:** Admin có form để nhập thông tin cho sản phẩm mới: tên, mô tả, hình ảnh, giá bán, giá khuyến mãi (nếu có), số lượng tồn kho, SKU, thuộc tính (màu, size) và danh mục phân loại, v.v.
+* **Chỉnh sửa/Xóa sản phẩm:** Cho phép cập nhật thông tin sản phẩm hiện có hoặc xóa sản phẩm khỏi danh sách. Khi chỉnh sửa có thể thay đổi giá, hình ảnh, ẩn/hiện sản phẩm trên site.
+* **Quản lý danh mục:** Tạo, sửa, xóa **danh mục và danh mục con** để phân loại sản phẩm một cách hợp lý. Ví dụ: tạo danh mục "Điện thoại" và các danh mục con "Smartphone", "Điện thoại phổ thông"… Việc phân loại sẽ giúp người dùng duyệt sản phẩm theo nhóm dễ dàng hơn.
+* **Quản lý tồn kho:** Hệ thống quản trị sản phẩm tích hợp việc theo dõi **số lượng tồn kho**. Mỗi khi có đơn hàng, số lượng tồn sẽ được cập nhật, tránh tình trạng bán quá số lượng hiện có hoặc hết hàng mà vẫn hiển thị. Admin cũng có thể nhận cảnh báo khi hàng sắp hết để chủ động nhập thêm.
+* **Các thuộc tính & biến thể:** Nếu sản phẩm có biến thể (ví dụ: cùng mẫu áo có các size S, M, L), admin có giao diện nhập các biến thể và quản lý giá, tồn kho cho từng biến thể.
+* **Quản lý media:** Thư viện ảnh sản phẩm, tài liệu hướng dẫn đi kèm (nếu có) cũng nằm trong phần này để tiện cho việc upload và tái sử dụng.
+
+Nhìn chung, module quản lý sản phẩm là nơi tập trung **toàn bộ dữ liệu sản phẩm**. Giao diện được tối ưu để admin dễ tìm kiếm (theo tên, SKU, danh mục), và thao tác nhanh với số lượng lớn (ví dụ: chỉnh sửa hàng loạt giá, xuất/nhập file Excel danh sách sản phẩm).
+
+### Quản lý đơn hàng (Order Management)
+
+Chức năng này giúp admin theo dõi và xử lý mọi đơn đặt hàng từ khách hàng. Giao diện thường hiển thị danh sách các đơn hàng với thông tin tóm tắt và khả năng lọc theo trạng thái. Các tính năng chính:
+
+* **Danh sách đơn hàng:** Mỗi đơn thường hiển thị mã đơn, tên khách, ngày đặt, tổng tiền, trạng thái hiện tại (đang chờ thanh toán, đã thanh toán, đang giao, đã hoàn thành, đã hủy...). Admin có thể sắp xếp hoặc lọc đơn theo ngày tháng, trạng thái, phương thức thanh toán, v.v.
+* **Chi tiết đơn hàng:** Khi nhấp vào một đơn cụ thể, admin sẽ xem được toàn bộ chi tiết: sản phẩm đã đặt (tên, biến thể, số lượng, giá), địa chỉ giao hàng, phương thức thanh toán, phí vận chuyển, mã giảm giá áp dụng (nếu có), **thông tin thanh toán của khách** (đã thanh toán/chưa). Tất cả thông tin khách hàng cung cấp khi thanh toán đều hiển thị ở đây để tiện cho xử lý.
+* **Cập nhật trạng thái:** Admin có thể thay đổi trạng thái đơn hàng khi tiến hành xử lý. Ví dụ: xác nhận thanh toán, đánh dấu là *đã giao hàng*, hoặc *hoàn tiền/hủy đơn*. Mỗi thay đổi có thể kích hoạt email/SMS thông báo cho khách hàng về tiến độ đơn hàng.
+* **Tích hợp vận chuyển:** Hệ thống cho phép **in phiếu gửi**, mã vận đơn và liên kết với đối tác vận chuyển. Một số admin panel tích hợp API của hãng vận chuyển để từ giao diện admin có thể đặt lịch lấy hàng, theo dõi hành trình giao ngay.
+* **Xử lý hoàn trả:** Nếu khách yêu cầu trả hàng/hoàn tiền, admin có công cụ để ghi nhận và thực hiện hoàn tiền (qua cổng thanh toán) cũng như quản lý trạng thái hoàn trả trong đơn hàng tương ứng.
+
+Hệ thống quản lý đơn hàng ghi lại mọi đơn hàng ngay khi khách hoàn tất thanh toán, chứa **đầy đủ thông tin sản phẩm, số lượng, địa chỉ giao và thanh toán** để admin xem và theo dõi. Việc quản lý tập trung như vậy giúp cửa hàng vận hành trơn tru, đảm bảo đơn hàng được thực hiện đúng hạn và khách hàng hài lòng.
+
+### Quản lý người dùng/khách hàng (User Management)
+
+Module này cho phép quản trị viên quản lý tất cả tài khoản trên hệ thống, bao gồm khách hàng lẫn các tài khoản nội bộ (nhân viên quản trị). Tùy quy mô hệ thống, phần quản lý người dùng có thể chia tách thành **khách hàng** và **nhân viên**, nhưng ở đây tập trung vào những điểm chính:
+
+* **Danh sách khách hàng:** Bảng liệt kê các người dùng đã đăng ký tài khoản, kèm thông tin như email, tên, ngày tham gia, số đơn hàng đã đặt, v.v. Admin có thể tìm kiếm khách hàng theo tên hoặc email.
+* **Chi tiết tài khoản khách hàng:** Hiển thị thông tin cá nhân, địa chỉ đã lưu, lịch sử đơn hàng của khách đó. Admin có thể hỗ trợ chỉnh sửa thông tin nếu khách hàng yêu cầu (ví dụ: thay đổi email, đặt lại mật khẩu thủ công).
+* **Quản lý phân quyền (nhân viên):** Đối với trang web lớn có nhiều người cùng quản trị, admin panel cung cấp tính năng tạo tài khoản nhân viên với **quyền hạn** khác nhau (ví dụ: nhân viên chăm sóc khách hàng chỉ xem được đơn hàng, không chỉnh sửa sản phẩm). Phân quyền chặt chẽ đảm bảo mỗi người chỉ truy cập được phần việc của họ, tăng cường bảo mật cho hệ thống.
+* **Thống kê hoạt động người dùng:** Có thể bao gồm báo cáo về số lượng người đăng ký mới theo thời gian, tỷ lệ khách hoạt động, email đăng ký nhận tin, v.v., hỗ trợ cho marketing.
+
+Quản lý người dùng giúp **theo dõi hành vi khách hàng** (như ai là người mua tích cực, ai chưa mua lần nào), đồng thời duy trì trật tự và bảo mật cho hệ thống qua quản lý quyền admin. Đây cũng là nơi hỗ trợ khách hàng khi có vấn đề tài khoản – admin có thể chủ động đặt lại mật khẩu, khóa/mở khóa tài khoản vi phạm, hoặc cung cấp thông tin hỗ trợ khi cần.
+
+### Báo cáo & Thống kê (Reports & Analytics)
+
+Phần báo cáo cung cấp dữ liệu phân tích sâu hơn về hoạt động kinh doanh, thường dưới dạng báo cáo tổng hợp hoặc cho phép xuất file. Giao diện báo cáo có thể bao gồm:
+
+* **Báo cáo doanh thu:** Thống kê doanh thu theo ngày, tuần, tháng, so sánh với kỳ trước. Có thể phân tích theo danh mục sản phẩm hoặc kênh bán hàng.
+* **Báo cáo đơn hàng:** Tổng số đơn, giá trị trung bình mỗi đơn, tỷ lệ đơn hủy, tỷ lệ hoàn trả hàng. Những con số này giúp đánh giá hiệu quả bán hàng và hậu cần.
+* **Báo cáo sản phẩm:** Danh sách sản phẩm bán chạy nhất, tồn kho hiện tại của từng mặt hàng, sản phẩm ít được quan tâm. Admin dựa vào đây để có chiến lược nhập hàng hoặc khuyến mãi phù hợp.
+* **Báo cáo khách hàng:** Số lượng khách hàng mới, khách hàng quay lại, khu vực mua hàng nhiều, v.v. để hiểu rõ tệp khách hàng.
+* **Phân tích hành vi:** Nếu tích hợp công cụ phân tích, admin có thể xem luồng hành vi người dùng (bao nhiêu người thêm vào giỏ nhưng không mua, bao nhiêu người bỏ trang ở bước nào…). Dữ liệu này hỗ trợ cải thiện UI/UX và tối ưu chuyển đổi.
+
+Nhiều admin panel hiển thị một số thông tin phân tích trực tiếp ở Dashboard, nhưng module Báo cáo đầy đủ sẽ cho phép **tuỳ biến truy vấn và xuất dữ liệu chi tiết**. Chẳng hạn, admin có thể lọc báo cáo doanh thu cho một khoảng thời gian tuỳ ý và xuất ra Excel/PDF để lưu trữ. Việc có sẵn **thông tin cập nhật** về sales, hành vi khách hàng… giúp quản trị viên đưa ra quyết định kinh doanh chính xác và kịp thời.
+
+### Cấu hình hệ thống (System Configuration)
+
+Đây là phần dành cho việc thiết lập các thông số và tuỳ chọn hoạt động của website. Giao diện có thể không thường xuyên sử dụng hàng ngày như các phần khác, nhưng rất quan trọng để tùy chỉnh cách hệ thống vận hành. Một số nội dung trong cấu hình hệ thống:
+
+* **Cài đặt chung:** Bao gồm các thông tin như tên cửa hàng, logo, màu sắc giao diện, ngôn ngữ, múi giờ, định dạng tiền tệ, thuế suất… Admin thiết lập một lần khi dựng site và có thể thay đổi khi cần.
+* **Cổng thanh toán:** Quản lý các phương thức thanh toán được chấp nhận trên website. Ví dụ: tích hợp API của cổng **thanh toán online** (Napaspay, Paypal, Stripe…) hoặc thiết lập hướng dẫn chuyển khoản ngân hàng. Admin có thể cấu hình khóa API, chế độ test/production, v.v.
+* **Vận chuyển & Thuế:** Thiết lập các tùy chọn giao hàng (ví dụ: bảng phí vận chuyển theo khu vực, các đơn vị vận chuyển liên kết) và cấu hình thuế (VAT bao nhiêu %, áp dụng cho mặt hàng nào). Khi thay đổi chính sách (tăng giảm phí ship, miễn phí ship đơn từ X đồng), admin cập nhật trong phần này.
+* **Quản lý khuyến mãi & nội dung:** Bao gồm tạo mã giảm giá (coupon code), cài đặt các chiến dịch khuyến mãi (giảm giá theo danh mục, mua X tặng Y), quản lý banner quảng cáo trên trang chủ, quản lý trang blog/tin tức nếu có. Đây có thể được tách ra thành module Marketing riêng, nhưng nhiều khi gộp vào phần cấu hình/hệ thống.
+* **Quản lý user & phân quyền:** (Liên quan phần Quản lý người dùng đã nói ở trên) – mục này để tạo/sửa/xóa tài khoản admin, gán quyền cho từng vai trò (role). Admin cấp cao có thể vào đây cấp quyền cho nhân viên mới hoặc vô hiệu hóa tài khoản admin cũ.
+* **Sao lưu & bảo mật:** Thiết lập lịch sao lưu dữ liệu, quản lý khóa API, cấu hình tường lửa, và các tùy chỉnh bảo mật (như xác thực 2 bước cho admin). Đảm bảo **an toàn dữ liệu** là nhiệm vụ sống còn, nên phần cấu hình cho phép thay đổi các thiết lập bảo mật và quyền truy cập hệ thống.
+
+Tóm lại, **cấu hình hệ thống** giống như trung tâm điều khiển, nơi quản trị viên có thể tùy chỉnh mọi thứ từ trải nghiệm người dùng đến các tích hợp kỹ thuật. Nhờ có module này, một trang thương mại điện tử có thể linh hoạt thay đổi để phù hợp với nhu cầu kinh doanh (thêm phương thức thanh toán mới, điều chỉnh phí ship, v.v.) mà không cần can thiệp vào mã lập trình.
+
+**Bảng: Tóm tắt các chức năng chính của Admin Panel và nội dung quản lý**
+
+| **Chức năng (Admin)**  | **Mô tả / Thành phần chính**                                                                                                                                                                                                                                                                                                                                      |
+| ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Bảng điều khiển**    | - Thống kê tổng quan: doanh thu, số đơn, khách mới, v.v. (cập nhật **real-time**)<br> - Biểu đồ xu hướng (bán hàng, truy cập) <br> - Thông báo: đơn mới, hàng tồn kho thấp, tin nhắn khách hàng <br> - Tóm tắt nhanh: sản phẩm bán chạy, hiệu suất theo thời gian                                                                                                 |
+| **Quản lý sản phẩm**   | - Danh sách sản phẩm (tìm kiếm, lọc theo danh mục) <br> - Thêm/sửa/xóa sản phẩm (tên, mô tả, giá, ảnh, tồn kho)<br> - Quản lý danh mục và thuộc tính sản phẩm<br> - Theo dõi tồn kho và cảnh báo hết hàng<br> - (Tuỳ chọn) Nhập/Xuất dữ liệu sản phẩm hàng loạt (Excel, CSV)                                                                                      |
+| **Quản lý đơn hàng**   | - Danh sách đơn hàng (mã, khách, ngày, trạng thái) <br> - Xem chi tiết đơn: sản phẩm, số lượng, địa chỉ giao, thanh toán<br> - Cập nhật trạng thái (xác nhận, đóng gói, vận chuyển, hoàn thành, hủy) <br> - Tích hợp in hóa đơn, phiếu gửi vận chuyển <br> - Quản lý yêu cầu hoàn hàng/hoàn tiền                                                                  |
+| **Quản lý người dùng** | - Danh sách tài khoản khách hàng (tên, email, đăng ký, đơn đã mua) <br> - Xem/chỉnh sửa thông tin khách hàng (địa chỉ, lịch sử mua) <br> - Quản lý tài khoản admin/nhân viên và phân quyền truy cập<br> - (Bảo mật) Khóa/mở khóa hoặc đặt lại mật khẩu cho tài khoản khi cần                                                                                      |
+| **Báo cáo - Thống kê** | - Báo cáo doanh thu, đơn hàng theo thời gian (ngày/tuần/tháng) <br> - Thống kê sản phẩm: bán chạy, tồn kho <br> - Thống kê khách hàng: khách mới, lượt truy cập, tần suất mua <br> - Xuất báo cáo dưới dạng file (Excel/PDF) để lưu trữ hoặc phân tích ngoài <br> - Công cụ phân tích hành vi (kết hợp Google Analytics, v.v. nếu có)                             |
+| **Cấu hình hệ thống**  | - Cài đặt chung: tên website, ngôn ngữ, múi giờ, thuế suất <br> - Cài đặt **thanh toán** (tích hợp cổng thanh toán, tài khoản ngân hàng)<br> - Cài đặt **vận chuyển** (phí ship, đơn vị vận chuyển)<br> - Quản lý mã giảm giá, banner, nội dung trang (CMS) <br> - Quản lý tài khoản admin và thiết lập phân quyền bảo mật (xác thực 2 bước, chính sách mật khẩu) |
+
+*(Bảng trên tóm tắt các module chính của trang admin cho website thương mại điện tử và các nội dung quản lý quan trọng trong từng module.)*
+
+**Kết luận:** Một trang web thương mại điện tử tiêu chuẩn, như mô hình của Shopee, Lazada, bao gồm đầy đủ các trang giao diện người dùng từ **Trang chủ, Danh mục, Chi tiết sản phẩm, Giỏ hàng, Thanh toán, Tài khoản**... Mỗi trang có vai trò riêng nhưng kết hợp lại tạo thành một trải nghiệm mua sắm hoàn chỉnh cho khách hàng. Song song đó, hệ thống quản trị phía sau với **Dashboard, Quản lý sản phẩm, đơn hàng, khách hàng, báo cáo, cài đặt**... giúp nhà quản lý vận hành và theo dõi mọi hoạt động của cửa hàng một cách hiệu quả. Việc nắm rõ bố cục chuẩn và thành phần của từng giao diện sẽ giúp bạn thiết kế hoặc đánh giá một website thương mại điện tử một cách toàn diện, đảm bảo **trải nghiệm người dùng tốt** đồng thời **quản trị thuận lợi**, hướng tới thành công trong kinh doanh trực tuyến.   
